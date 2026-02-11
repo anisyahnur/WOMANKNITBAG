@@ -51,3 +51,14 @@
   color: #fff;
   font-size: 40px;
 }
+
+.hovered-card{
+  transition: transform 0.3s ease;
+}
+
+.card-img-top{
+  height: 300px;
+  object-fit: cover;
+}
+
+
