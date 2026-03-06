@@ -1,20 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .main-navbar {
-  background-color: burlywood; 
+  background-color: burlywood;
 }
 
 .navbar-brand,
 .nav-link {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .banner {
   height: 100vh;
   background:
-    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("https://i.pinimg.com/736x/c5/1b/b9/c51bb972b250723114a7f1d834fbb1bd.jpg");
   background-size: cover;
   background-position: center;
-
+  
   display: flex;
   align-items: center;
 }
@@ -27,19 +32,19 @@
   background-color: burlywood;
 }
 
-.main-color{
-  background-color:burlywood;
+.main-color {
+  background-color: burlywood;
 }
 
-.icon-service{
-  width:90px;
-  height:90px;
-  border:solid #fff 2px;
-  border-radius:50%;
-  color:#ffff;
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border: solid #fff 2px;
+  border-radius: 50%;
+  color: #fff;
 }
 
-.hovered-card{
+.hovered-card {
   transition: transform 0.3s ease;
 }
 
@@ -52,107 +57,140 @@
   font-size: 40px;
 }
 
-.hovered-card{
-  transition: transform 0.3s ease;
-}
-
-.card-img-top{
-  height: 300px;
-  object-fit: cover;
-}
-
 .testimony {
-    background-color:burlywood !important;
+  background-color: burlywood !important;
 }
 
 .testimony-card {
-    background: rgba(243, 241, 241, 0.07) !important;
-    border: 1px solid rgba(255, 255, 255, 0.15) !important;
-    border-radius: 16px;
-    padding: 28px;
-    transition: .3s;
-    height: 100%;
+  background: rgba(243, 241, 241, 0.07) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 16px;
+  padding: 28px;
+  transition: .3s;
+  height: 100%;
 }
 
 .testimony-card:hover {
-    transform: translateY(-6px);
-    background: rgba(255, 255, 255, 0.13);
-    border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.13);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .testimony-card .quote-icon {
-    font-size: 2rem;
-    color: rgba(255, 255, 255, 0.3);
-    line-height: 1;
-    margin-bottom: 10px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 1;
+  margin-bottom: 10px;
 }
 
 .testimony-card h5 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
 }
 
 .testimony-card .author {
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.55);
-    margin-bottom: 12px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 12px;
 }
 
 .testimony-card p {
-    font-size: 0.88rem;
-    color: rgba(10, 9, 9, 0.8);
-    line-height: 1.6;
-    margin-bottom: 0;
+  font-size: 0.88rem;
+  color: rgba(10, 9, 9, 0.8);
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .testimony-card .stars {
-    color: burlywood;
-    font-size: 0.85rem;
-    margin-bottom: 12px;
+  color: burlywood;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
 }
 
 footer {
-    background-color: burlywood;
+  background-color: burlywood;
 }
 
 .reservation {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .footer .background {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .footer .social-icon {
-    font-size: 1.6rem;
-    color: black;
-    transition: .3s;
+  font-size: 1.6rem;
+  color: black;
+  transition: .3s;
 
 }
 
 .footer .social-icon:hover {
-    color: black;
+  color: black;
 }
 
 .footer-main {
-    background-color: burlywood; 
+  background-color: burlywood;
 }
 
 .list-unstyled {
-    padding-left: 0;
-    list-style: none;
+  padding-left: 0;
+  list-style: none;
 }
 
 .text-decoration-none {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .footer-main a:hover {
-    color: #FFC107 !important;
+  color: #FFC107 !important;
 }
 
 .footer .h5 {
   background-color: black;
 }
+
+.produk-banner {
+  height: 50vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://i.pinimg.com/736x/c5/1b/b9/c51bb972b250723114a7f1d834fbb1bd.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+    transition: transform 0.3s ease; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(206, 114, 114, 0.1); 
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover; 
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: burlywood;
+}
+
+.btn-primary {
+    background-color:burlywood; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color:burlywood;
+}
+
