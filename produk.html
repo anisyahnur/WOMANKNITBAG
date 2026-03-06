@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>womanKnitBag</title>
+    <title>WomanKnitBag</title>
     <link rel="stylesheet" href="bootstrap-5_0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,10 +23,10 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="produk.html">Produk</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Promo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Keranjang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Keranjang</a>
                 </ul>
             </div>
         </div>
@@ -41,11 +40,6 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
-    </nav>
-
-    <div>
-    </div>
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row">
@@ -53,11 +47,11 @@
                 <div class="col-md-4 col-lg-3 mb-5">
                     <h4>Kategori</h4>
                     <ul class="list-group">
-                        <li class="list-group-item active">Kategori Produk</li>
-                        <li class="list-group-item">Tas Rajut Mini</li>
-                        <li class="list-group-item">Tas Rajut Handbag</li>
-                        <li class="list-group-item">Tas Rajut Backpack</li>
-                        <li class="list-group-item">Custom Tas Rajut</li>
+                        <li class="list-group-item active">Tote Bags</li>
+                        <li class="list-group-item">Sling Bags</li>
+                        <li class="list-group-item">Shoulder Bags</li>
+                        <li class="list-group-item">Clutches & Pouchess</li>
+                        <li class="list-group-item">Backpacks</li>
                     </ul>
                 </div>
 
@@ -65,199 +59,240 @@
                     <h4 class="text-center mb-4">Semua Produk</h4>
 
                     <div class="row">
+
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                
-                                <img src="rajutselempang.jpg" class="card-img-top" alt="Tas Rajut Selempang">
+                                <a href="rajutselempang.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Selempang">
+                                    <img src="rajutselempang.jpg" class="card-img-top" alt="Tas Rajut Selempang">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Selempang</h5>
-                                    <p class="card-text text-center">Praktis untuk aktivitas harian, ringan, dan stylish.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 45.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <p class="card-text text-center">Berukuran sedang, pas untuk membawa HP dan dompet.</p>
+                                    <h5 class="card-title text-center">Rp. 55.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                <img src="rajuttotebag.jpg" class="card-img-top" alt="Tas Rajut Tote Bag">
+                                <a href="rajuttotebag.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Tote Bag">
+                                    <img src="rajuttotebag.jpg" class="card-img-top" alt="Tas Rajut Tote Bag">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Tote Bag</h5>
                                     <p class="card-text text-center">Berukuran besar, cocok untuk kuliah, kerja, atau belanja.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 30.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <h5 class="card-title text-center">Rp. 35.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                <img src="rajuthandbag.jpg" class="card-img-top" alt="Tas Rajut Handbag">
+                                <a href="rajuthandbag.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Handbag">
+                                    <img src="rajuthandbag.jpg" class="card-img-top" alt="Tas Rajut Handbag">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Handbag</h5>
                                     <p class="card-text text-center">Model elegan untuk acara santai maupun semi-formal.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 60.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <h5 class="card-title text-center">Rp. 40.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                <img src="rajutpouch.jpg" class="card-img-top" alt="Tas Rajut Pouch">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Tas Rajut Mini / Pouch</h5>
-                                    <p class="card-text text-center">Ukuran kecil untuk menyimpan barang penting seperti HP</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 25.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <div class="card">
-                                <img src="rajutbackpack.jpg" class="card-img-top" alt="Tas Rajut Backpack">
+                                <a href="rajutbackpack.jpg" data-lightbox="tasrajut"
+                                    data-title="Tas Rajut Backpack">
+                                    <img src="rajutbackpack.jpg" class="card-img-top"
+                                        alt="Tas Rajut Backpack">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Backpack</h5>
-                                    <p class="card-text text-center">Nyaman dipakai, cocok untuk jalan-jalan dan traveling ringan.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 100.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <p class="card-text text-center">Praktis dan stylish untuk membawa barang-barang kecil.</p>
+                                    <h5 class="card-title text-center">Rp. 50.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                <img src="rajutserut.jpg" class="card-img-top" alt="Tas Rajut Serut">
+                                <a href="rajutpouch.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Pouch">
+                                    <img src="rajutpouch.jpg" class="card-img-top" alt="Tas Rajut Pouch">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Tas Rajut Pouch</h5>
+                                    <p class="card-text text-center">Praktis dan stylish untuk membawa barang-barang kecil.</p>
+                                    <h5 class="card-title text-center">Rp. 20.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                                <a href="rajutserut.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Serut">
+                                    <img src="rajutserut.jpg" class="card-img-top" alt="Tas Rajut Serut">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Serut</h5>
                                     <p class="card-text text-center">Model unik dengan tali serut, simpel tapi trendi.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 95.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <h5 class="card-title text-center">Rp. 35.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                <img src="rajutpantai.jpg" class="card-img-top" alt="Tas Rajut Pantai">
+                                <a href="rajutpantai.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Pantai">
+                                    <img src="rajutpantai.jpg" class="card-img-top" alt="Tas Rajut Pantai">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Pantai</h5>
                                     <p class="card-text text-center">Desain terbuka dan santai, cocok untuk liburan dan wisata.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 50.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <h5 class="card-title text-center">Rp. 25.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                <img src="rajutanak.jpg" class="card-img-top" alt="Tas Rajut Anak">
+                                <a href="rajutanak.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Anak">
+                                    <img src="rajutanak.jpg" class="card-img-top" alt="Tas Rajut Anak">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Anak</h5>
                                     <p class="card-text text-center">Warna cerah dan motif lucu, aman untuk anak-anak.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 35.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <h5 class="card-title text-center">Rp. 25.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="card">
-                                <img src="rajutcustom.jpg" class="card-img-top"
-                                    alt="Tas Rajut Custom / Handmade Eksklusif">
+                                <a href="rajutcustom.jpg" data-lightbox="tasrajut" data-title="Tas Rajut Custom">
+                                    <img src="rajutcustom.jpg" class="card-img-top" alt="Tas Rajut Custom">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Tas Rajut Custom</h5>
-                                    <p class="card-text text-center">Bisa request warna, ukuran, dan model sesuai keinginan.</p>
-                                    <h4 class="text-center text-warning mb-3">Rp. 25.000</h4>
-                                    <a href="#" class="btn btn-primary w-100">Selengkapnya</a>
+                                    <p class="card-text text-center">Desain unik dan personalisasi sesuai keinginan Anda.</p>
+                                    <h5 class="card-title text-center">Rp. 25.000</h5>
+                                    <a href="#" class="btn btn-primary dropdown-toggle">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-<!--section subscribe-->
-<div class="container-fluid py-5 footer">
-  <div class="container">
-    <h5 class="text-center mb-3">Temui Kami</h5>
-    
-    <div class="d-flex justify-content-center mb-5" style="gap: 70px">
-      <a href="https://facebook.com/username" target="_blank" class="social-icon">
-        <i class="bi bi-facebook"></i>
-      </a>
-      <a href="https://instagram.com/username" target="_blank" class="social-icon">
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a href="https://twitter.com/username" target="_blank" class="social-icon">
-        <i class="bi bi-twitter-x"></i>
-      </a>
-      <a href="https://youtube.com/@username" target="_blank" class="social-icon">
-        <i class="bi bi-youtube"></i>
-      </a>
-    </div>
-
-    <h5 class="text-center mb-1">Subscribe</h5>
-    <p class="text-center mb-3">Untuk informasi tentang promo</p>
-    
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="input-group">
-          <input type="email" class="form-control" placeholder="Ketikkan Email">
-          <button class="btn btn-warning text-light">Subscribe</button>
         </div>
-      </div>
     </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
+    </div>
 
-<!--section subscribe end-->
-
-<!--section footer -->
-<footer class="py-5 footer-main text-white">
-  <div class="container">
-    <div class="row text-center text-md-start">
-      
-      <div class="col-md-4 mb-3 mb-md-0">
-        <h5 class="fw-bold mb-3">Woman Knit Bag</h5>
-        <p>Menyediakan berbagai macam tas knit berkualitas tinggi untuk wanita.</p>
-      </div>
-
-      <div class="col-md-4 mb-3 mb-md-0">
-        <h5 class="fw-bold mb-3">Navigasi</h5>
-        <ul class="list-unstyled">
-          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
-          <li><a href="produk.html" class="text-white text-decoration-none" >Produk</a></li>
-          <li><a href="#" class="text-white text-decoration-none">Promo</a></li>
-          <li><a href="#" class="text-white text-decoration-none">Keranjang</a></li>
+    <!--Pagination-->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
         </ul>
-      </div>
-
-      <div class="col-md-4 mb-3 mb-md-0">
-        <h5 class="fw-bold mb-3">Kontak</h5>
-        <p><i class="bi bi-geo-alt me-2"></i> Jl. Knit Fashion No. 087, Indonesia</p>
-        <p><i class="bi bi-telephone me-2"></i>  +62 125 7643 0496</p>
-        <p><i class="bi bi-envelope me-2"></i>  womanknitbag@email.com</p>
-      </div>
+    </nav>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 
-    <hr class="mt-5 mb-4 border-secondary">
+    <!--section subscribe-->
+    <div class="container-fluid py-5 footer">
+        <div class="container">
+            <h5 class="text-center mb-3">Temui Kami</h5>
 
-    <div class="row">
-      <div class="col-12 text-center">
-        <p class="mb-0">&copy; 2024 Woman Knit Bag. All Rights Reserved.</p>
-      </div>
+            <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+                <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+
+            <h5 class="text-center  mb-1">Subscribe</h5>
+            <p class="text-center  mb-3">Untuk informasi tentang promo</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Ketikkan Email">
+                        <button class="btn btn-warning">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
-<!--section footer end-->
-        
-            <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
-            <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <!--section subscribe end-->
+
+    <!--section footer -->
+    <footer class="py-5 footer-main text-white">
+        <div class="container">
+            <div class="row text-center text-md-start">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-3">Woman Knit Bag</h5>
+                    <p>Menyediakan berbagai macam tas knit berkualitas tinggi untuk wanita.</p>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-3">Navigasi</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="produk.html" class="text-white text-decoration-none">Produk</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Promo</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Keranjang</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-3">Kontak</h5>
+                    <p><i class="bi bi-geo-alt me-2"></i> Jl. Knit Fashion No. 087, Indonesia</p>
+                    <p><i class="bi bi-telephone me-2"></i>  +62 125 7643 0496</p>
+                    <p><i class="bi bi-envelope me-2"></i>womanknitbag@email.com</p>
+                </div>
+            </div>
+
+            <hr class="mt-5 mb-4 border-secondary">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Woman Knit Bag. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--section footer end-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 </body>
 
 </html>

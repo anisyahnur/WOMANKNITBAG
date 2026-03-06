@@ -194,3 +194,109 @@ footer {
     background-color:burlywood;
 }
 
+.card a[data-lightbox] {
+    display: block;
+    overflow: hidden; 
+    background-color: #000; 
+    }
+.main-navbar {
+  background-color: burlywood (123, 49, 102); 
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(255, 255, 255) ;
+}
+
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/736x/c5/1b/b9/c51bb972b250723114a7f1d834fbb1bd.jpg");
+    color: #fff;
+  background-size: cover;
+  background-position: center;
+  
+
+  display: flex;
+  align-items: center;
+}
+
+.produk-banner {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/c5/1b/b9/c51bb972b250723114a7f1d834fbb1bd.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: rgb(0, 0, 0)
+        }
+
+.card {
+    transition: transform 0.3s ease; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(206, 114, 114, 0.1); 
+}
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover; 
+}
+
+.card-title {
+    color:burlywood(123, 49, 102);
+    
+} 
+
+.btn-primary {
+    background-color: transparent; 
+    border: 1px solid burlywood; 
+    color: burlywood; 
+    
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    
+    padding: 5px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color:burlywood;
+    color: burlywood; 
+}
+
+.footer {
+    background-color: white;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: black;
+    transition: .3s;
+
+}
+
+.footer .social-icon:hover {
+    color: #FFC107;
+}
+
+.footer-main {
+    background-color: burlywood; 
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.footer-main a:hover {
+    color: #FFC107 !important;
+}
